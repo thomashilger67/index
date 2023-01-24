@@ -2,6 +2,7 @@
 petit projet pour le cours d'indexation web ENSAI 3A SID fait par Thomas Hilger. Le but est de coder un index non-positionnel.
 
 ## Quickstart 
+d'abord, assurez-vous d'avoir l'ensemble des dépendances :  executez à la racine du projet la commande `pip install -r requirements.txt`.
 Pour créer un index, il suffit de lancer à la racine du projet la commane `python main.py`. L'index nouvellement créer se trouvera dans le fichier json `title.non_pos_index.json`. De plus un fichier avec quelques résultats statistiques sera produit.
 
 Pour lancer les tests, déplacez-vous dans le dossier test, puis lancez la commande `pytest`.
